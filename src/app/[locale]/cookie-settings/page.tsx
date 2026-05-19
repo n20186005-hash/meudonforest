@@ -7,16 +7,20 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
+  const { locale } = await params;
   const baseUrl = 'https://meudonforest.com';
   const zhUrl = `${baseUrl}/cookie-settings`;
   const enUrl = `${baseUrl}/en/cookie-settings`;
+  const frUrl = `${baseUrl}/fr/cookie-settings`;
+  const selfUrl = locale === 'zh' ? zhUrl : locale === 'fr' ? frUrl : enUrl;
 
   return {
     alternates: {
-      canonical: zhUrl,
+      canonical: selfUrl,
       languages: {
         'zh': zhUrl,
         'en': enUrl,
+        'fr': frUrl,
         'x-default': zhUrl,
       },
     },

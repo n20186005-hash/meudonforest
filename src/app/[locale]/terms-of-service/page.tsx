@@ -11,7 +11,8 @@ export async function generateMetadata({
   const baseUrl = 'https://meudonforest.com';
   const zhUrl = `${baseUrl}/terms-of-service`;
   const enUrl = `${baseUrl}/en/terms-of-service`;
-  const selfUrl = locale === 'zh' ? zhUrl : enUrl;
+  const frUrl = `${baseUrl}/fr/terms-of-service`;
+  const selfUrl = locale === 'zh' ? zhUrl : locale === 'fr' ? frUrl : enUrl;
 
   return {
     alternates: {
@@ -19,6 +20,7 @@ export async function generateMetadata({
       languages: {
         'zh': zhUrl,
         'en': enUrl,
+        'fr': frUrl,
         'x-default': zhUrl,
       },
     },
@@ -30,7 +32,7 @@ function TermsContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'zh' ? '/' : `/${locale}`;
+  const homeHref = `/${locale}`;
   const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (

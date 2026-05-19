@@ -19,7 +19,8 @@ export async function generateMetadata({
 
   const zhUrl = `${baseUrl}/`;
   const enUrl = `${baseUrl}/en`;
-  const selfUrl = locale === 'zh' ? zhUrl : enUrl;
+  const frUrl = `${baseUrl}/fr`;
+  const selfUrl = locale === 'zh' ? zhUrl : locale === 'fr' ? frUrl : enUrl;
 
   return {
     title: messages.meta.title,
@@ -29,6 +30,7 @@ export async function generateMetadata({
       languages: {
         'zh': zhUrl,
         'en': enUrl,
+        'fr': frUrl,
         'x-default': zhUrl,
       },
     },
@@ -37,7 +39,7 @@ export async function generateMetadata({
       description: messages.meta.description,
       url: selfUrl,
       siteName: "Forêt domaniale de Meudon",
-      locale: locale === 'zh' ? 'zh_CN' : 'en_US',
+      locale: locale === 'zh' ? 'zh_CN' : locale === 'fr' ? 'fr_FR' : 'en_US',
       type: 'website',
     },
   };
@@ -60,7 +62,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale === 'zh' ? 'zh-CN' : 'en'} suppressHydrationWarning>
+    <html lang={locale === 'zh' ? 'zh-CN' : locale} suppressHydrationWarning>
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
         {/* 注意：请将上面的 ca-pub-XXXXXXXXXX 替换为您的 Google AdSense 发布商 ID */}
