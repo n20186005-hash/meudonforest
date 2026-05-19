@@ -60,6 +60,14 @@ export default function TransportSection() {
         </svg>
       ),
     },
+    {
+      key: 'fromAirport',
+      icon: (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.2-1.1.7l-1 2.5L9 14l-4 4-3-1-1 1 4 4 1-1-1-3 4-4 4.6 6.3c.5.7 1 .7 1.2.7s.6-.2.7-.6l2.3-6.2z"/>
+        </svg>
+      ),
+    },
   ];
 
   return (

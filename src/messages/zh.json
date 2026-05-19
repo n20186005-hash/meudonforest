@@ -99,8 +99,10 @@
     "title": "门票价格",
     "park": "森林进入",
     "parkPrice": "完全免费，无需门票",
+    "parking": "停车场",
+    "parkingPrice": "免费（周末建议早到）",
     "guided": "导览游",
-    "guidedPrice": "可通过 ONF 网站或当地旅游办公室预订"
+    "guidedPrice": "作为自然科普平台，我们鼓励自由探索。暂不提供商业导游预订服务。"
   },
   "transport": {
     "title": "交通方式",
@@ -113,7 +115,9 @@
     "walking": "步行与骑行",
     "walkingDesc": "从默东市区步行到森林非常方便。森林内有超过50公里步道，也适合骑行（山地自行车）。",
     "driving": "自驾与停车",
-    "drivingDesc": "从巴黎出发，走 A13 高速公路，然后转 D907 到默东。森林周边有几个停车场，但周末可能拥挤。建议早到或使用公共交通。"
+    "drivingDesc": "从巴黎出发，走 A13 高速公路，然后转 D907 到默东。森林周边有几个停车场，但周末可能拥挤。建议早到或使用公共交通。",
+    "fromAirport": "从机场出发",
+    "fromAirportDesc": "从戴高乐机场 (CDG) 或奥利机场 (ORY) 均可乘坐 RER B 线至巴黎市区，随后转乘 Transilien 线路 N 或 U 至 Meudon 站。全程约需 1.5 至 2 小时。"
   },
   "route": {
     "title": "推荐徒步路线",

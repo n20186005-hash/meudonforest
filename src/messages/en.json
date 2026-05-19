@@ -99,8 +99,10 @@
     "title": "Ticket Prices",
     "park": "Forest Access",
     "parkPrice": "Completely free, no ticket required",
+    "parking": "Parking",
+    "parkingPrice": "Free (Arrive early on weekends)",
     "guided": "Guided Tours",
-    "guidedPrice": "Available through ONF website or local tourist office"
+    "guidedPrice": "As a science popularization platform, we encourage free exploration. We do not provide commercial guided tour bookings."
   },
   "transport": {
     "title": "How to Get Here",
@@ -113,7 +115,9 @@
     "walking": "Walking & Cycling",
     "walkingDesc": "Walking from Meudon town to the forest is very convenient. The forest has over 50 km of trails, also suitable for cycling (mountain bikes).",
     "driving": "Driving & Parking",
-    "drivingDesc": "From Paris, take A13 highway, then D907 to Meudon. Several parking lots around the forest, but may be crowded on weekends. Arrive early or use public transport."
+    "drivingDesc": "From Paris, take A13 highway, then D907 to Meudon. Several parking lots available around the forest, but can be crowded on weekends. Recommend arriving early or using public transport.",
+    "fromAirport": "From the Airport",
+    "fromAirportDesc": "From Charles de Gaulle (CDG) or Orly (ORY) airport, take the RER B to central Paris, then transfer to Transilien line N or U to Meudon station. The journey takes about 1.5 to 2 hours."
   },
   "route": {
     "title": "Recommended Hiking Routes",
