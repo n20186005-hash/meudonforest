@@ -315,22 +315,5 @@
   "officialManagement": {
     "title": "About Forêt domaniale de Meudon",
     "text": "Forêt domaniale de Meudon is one of the most important natural reserves in the Île-de-France region of France, covering approximately 1,100 hectares. This forest was once a hunting ground for French royalty and is now managed by the Office National des Forêts (ONF), open to the public free of charge.\n\nThe forest features over 50 kilometers of trails, rich biodiversity, and breathtaking views of Paris from the Belvédère viewpoint. Whether you are a hiking enthusiast, nature photographer, or simply want to escape the city noise, Forêt de Meudon is the ideal choice."
-  },
-  "recommendations": {
-    "title": "Discover More",
-    "attractionsTitle": "Nearby Attractions",
-    "toursTitle": "Recommended Tours & Activities",
-    "attractions": [
-      {"name": "Château de Versailles", "url": "https://en.chateauversailles.fr/"},
-      {"name": "Église Saint-Martin de Meudon", "url": "https://www.meudon.fr/"},
-      {"name": "Paris City Center", "url": "https://en.parisinfo.com/"},
-      {"name": "Seine River Banks", "url": "https://www.seine-saintdenis.fr/"}
-    ],
-    "tours": [
-      {"name": "Guided Hike in Meudon Forest", "url": "https://www.onf.fr/"},
-      {"name": "Versailles Palace Day Trip", "url": "https://en.chateauversailles.fr/"},
-      {"name": "Paris Nature Hiking Tour", "url": "https://en.parisinfo.com/"},
-      {"name": "Île-de-France Nature Reserve Exploration", "url": "https://www.onf.fr/"}
-    ]
   }
 }

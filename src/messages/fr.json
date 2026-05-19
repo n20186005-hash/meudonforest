@@ -315,22 +315,5 @@
   "officialManagement": {
     "title": "À propos de la Forêt domaniale de Meudon",
     "text": "La Forêt domaniale de Meudon est l'une des réserves naturelles les plus importantes de la région Île-de-France, couvrant environ 1 100 hectares. Cette forêt, autrefois terrain de chasse de la royauté française, est aujourd'hui gérée par l'Office National des Forêts (ONF) et est ouverte au public gratuitement.\n\nLa forêt offre plus de 50 kilomètres de sentiers, une riche biodiversité et des vues imprenables sur Paris depuis le point de vue du Belvédère. Que vous soyez amateur de randonnée, photographe de nature ou que vous souhaitiez simplement échapper au bruit de la ville, la Forêt de Meudon est le choix idéal."
-  },
-  "recommendations": {
-    "title": "Découvrir plus",
-    "attractionsTitle": "Attractions à proximité",
-    "toursTitle": "Visites et activités recommandées",
-    "attractions": [
-      {"name": "Château de Versailles", "url": "https://en.chateauversailles.fr/"},
-      {"name": "Église Saint-Martin de Meudon", "url": "https://www.meudon.fr/"},
-      {"name": "Centre-ville de Paris", "url": "https://en.parisinfo.com/"},
-      {"name": "Rives de la Seine", "url": "https://www.seine-saintdenis.fr/"}
-    ],
-    "tours": [
-      {"name": "Randonnée guidée en Forêt de Meudon", "url": "https://www.onf.fr/"},
-      {"name": "Excursion d'une journée au château de Versailles", "url": "https://en.chateauversailles.fr/"},
-      {"name": "Randonnée nature à Paris", "url": "https://en.parisinfo.com/"},
-      {"name": "Exploration des réserves naturelles d'Île-de-France", "url": "https://www.onf.fr/"}
-    ]
   }
 }

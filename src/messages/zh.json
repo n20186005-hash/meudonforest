@@ -315,22 +315,5 @@
   "officialManagement": {
     "title": "关于默东国有森林",
     "text": "默东国有森林（Forêt domaniale de Meudon）是法国法兰西岛大区最重要的自然保护区之一，占地约1,100公顷。这片森林曾经是法国皇室的狩猎场，如今由法国国家森林办公室（ONF）管理，向公众免费开放。\n\n森林拥有超过50公里的步道，丰富的生物多样性，以及从 Belvédère 观景台俯瞰巴黎全景的绝佳视角。无论您是徒步爱好者、自然摄影师，还是 simply 想逃离城市喧嚣，默东森林都是理想的选择。"
-  },
-  "recommendations": {
-    "title": "探索更多",
-    "attractionsTitle": "附近景点",
-    "toursTitle": "推荐行程与活动",
-    "attractions": [
-      {"name": "凡尔赛宫（Château de Versailles）", "url": "https://en.chateauversailles.fr/"},
-      {"name": "默东圣母院（Église Saint-Martin de Meudon）", "url": "https://www.meudon.fr/"},
-      {"name": "巴黎市区", "url": "https://en.parisinfo.com/"},
-      {"name": "塞纳河畔", "url": "https://www.seine-saintdenis.fr/"}
-    ],
-    "tours": [
-      {"name": "默东森林徒步导览", "url": "https://www.onf.fr/"},
-      {"name": "凡尔赛宫一日游", "url": "https://en.chateauversailles.fr/"},
-      {"name": "巴黎自然徒步之旅", "url": "https://en.parisinfo.com/"},
-      {"name": "法兰西岛自然保护区探索", "url": "https://www.onf.fr/"}
-    ]
   }
 }
