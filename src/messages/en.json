@@ -161,27 +161,23 @@
     ]
   },
   "hotels": {
-    "title": "Accommodation",
+    "title": "Accommodation Types",
     "hotels": [
       {
-        "name": "Hotel de Meudon",
-        "desc": "Comfortable hotel in Meudon town, close to forest entrance, traditional French decor",
-        "price": "~€100-150/night"
+        "name": "Accommodations in Meudon Town",
+        "desc": "Close to the forest entrance, convenient for walking, suitable for visitors who want to deeply experience nature and tranquility."
       },
       {
-        "name": "Hotels Near Versailles Palace",
-        "desc": "If planning to combine with Versailles Palace visit, choose hotels in Versailles town",
-        "price": "~€120-200/night"
+        "name": "Accommodations Near Versailles",
+        "desc": "Not far from Meudon Forest, suitable for travelers planning to combine a visit to the Palace of Versailles with a forest hike."
       },
       {
-        "name": "Hotels in Paris City Center",
-        "desc": "Stay in Paris city center, commute to forest daily (about 30 min drive)",
-        "price": "~€150-300/night"
+        "name": "Accommodations in Central Paris",
+        "desc": "Convenient transportation, daily commute to the forest via public transport (about 30 min), suitable for visitors mainly staying in Paris."
       },
       {
-        "name": "Airbnb Near Meudon",
-        "desc": "Experience local life, usually with garden, suitable for families or long stays",
-        "price": "~€70-120/night"
+        "name": "Local Guesthouses & B&Bs",
+        "desc": "Experience French country life, often with gardens, suitable for families or nature lovers planning a longer stay."
       }
     ]
   },
