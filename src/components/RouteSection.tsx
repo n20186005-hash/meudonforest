@@ -28,11 +28,11 @@ export default function RouteSection() {
           />
 
           <div className="space-y-6">
-            {Array.from({ length: 8 }, (_, i) => i + 1).map((step) => (
+            {(t.raw('steps') as string[]).map((description, i) => (
               <RouteStep
-                key={step}
-                step={step}
-                description={t(`steps.${step - 1}` as any)}
+                key={i}
+                step={i + 1}
+                description={description}
               />
             ))}
           </div>

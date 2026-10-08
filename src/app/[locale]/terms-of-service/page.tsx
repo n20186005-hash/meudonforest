@@ -1,6 +1,8 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
+import { buildAlternates, type Href } from '@/lib/seo';
+import type { Locale } from '@/i18n/routing';
 
 export async function generateMetadata({
   params,
@@ -8,22 +10,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://meudonforest.com';
-  const zhUrl = `${baseUrl}/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
-  const frUrl = `${baseUrl}/fr/terms-of-service`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'fr' ? frUrl : enUrl;
-
   return {
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'x-default': zhUrl,
-      },
-    },
+    ...buildAlternates('/terms-of-service' as Href, locale as Locale),
+    robots: { index: false, follow: true },
   };
 }
 
@@ -32,14 +21,13 @@ function TermsContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = `/${locale}`;
   const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <a
-          href={homeHref}
+          href="/"
           className="inline-flex items-center gap-2 text-sm font-medium mb-10 transition-colors"
           style={{ color: 'var(--accent)' }}
         >

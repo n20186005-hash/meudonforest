@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Forêt domaniale de Meudon | Paris Nearby Natural Oasis - Must-Visit Attraction",
-    "description": "Complete guide to Forêt domaniale de Meudon. Learn about this beautiful forest near Paris, its history, trails, activities, and practical information."
+    "title": "Forêt de Meudon: hiking, map, ponds & how to get there",
+    "description": "Discover the Forêt de Meudon near Paris: hiking trails, the lakes walk, trail map, public transport access and tips to plan your visit."
   },
   "header": {
     "home": "Home",
@@ -13,18 +13,18 @@
   "hero": {
     "title": "Forêt domaniale de Meudon",
     "subtitle": "Paris Nearby Natural Oasis, Historic Royal Forest",
-    "rating": "4.4(5,436)",
-    "reviewCount": "5,436 reviews",
+    "rating": "4.4 (5,460)",
+    "reviewCount": "5,460 reviews",
     "type": "Nature Reserve · Forest Trails · Near Paris",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Discover Forêt domaniale de Meudon",
-    "description": "The Forêt domaniale de Meudon is a beautiful forest located in the southwestern suburbs of Paris, covering approximately 1,100 hectares. It is one of the most important natural reserves in the Île-de-France region. With a history dating back to medieval times as a hunting ground for French royalty, it now serves as an ideal escape for Parisians seeking nature and tranquility.\n\nThe forest features over 50 kilometers of well-marked trails, perfect for hiking, jogging, and cycling. The vegetation is diverse, primarily composed of oak, beech, and pine trees, offering varied sceneries throughout the seasons. Wildflowers bloom in spring, lush green canopies provide shade in summer, colorful foliage paints the landscape in autumn, and peaceful silence envelops the forest in winter.\n\nForêt de Meudon is also home to rich wildlife, including deer, wild boar, foxes, and various bird species. For nature enthusiasts and photographers, this is truly a paradise. From certain elevated points within the forest, you can enjoy breathtaking views of Paris and the Eiffel Tower.\n\nWhether you want to spend a day hiking or simply relax in the forest, Forêt domaniale de Meudon has something for everyone.",
+    "description": "The Forêt domaniale de Meudon is a public forest in the southwestern suburbs of Paris, covering about 1,100 hectares across several communes in the Hauts-de-Seine department. Managed by the Office national des forêts (ONF), it is open to everyone free of charge, making it one of the easiest nature outings from the capital.\n\nThe massif is crossed by a network of forest tracks. According to the ONF, an approximately 8 km lakes circuit is waymarked and documented there. Vegetation, dominated by oaks, beeches and pines, offers varied scenery through the seasons. Wildflowers bloom in spring, green canopies provide shade in summer, colourful foliage paints the landscape in autumn, and peaceful silence envelops the forest in winter.\n\nThe forest shelters varied wildlife: roe deer, wild boar, foxes, squirrels and many bird species. For nature lovers and photographers, it is a favourite spot. From a few open clearings you can glimpse the horizons of southwestern Paris.\n\nWhether you want to walk for an hour or spend half a day in the forest, the Forêt domaniale de Meudon offers preserved nature just outside Paris.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
-        "Free entrance, open year-round 24/7",
+        "Free and open access, no ticket required",
         "Recommended main entrance: 10-minute walk from Meudon train station",
         "Best hiking seasons: Spring and autumn, pleasant weather",
         "Bring water and snacks, limited facilities inside the forest",
@@ -35,11 +35,11 @@
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "1,100 hectares, one of Île-de-France's important natural reserves",
-        "Over 50 kilometers of hiking and cycling trails",
+        "About 1,100 hectares, across several communes in the Hauts-de-Seine",
+        "Network of forest tracks, including a waymarked ~8 km lakes circuit",
         "Former hunting ground for French royalty, history dates to medieval times",
         "Rich biodiversity, habitat for various wildlife and plants",
-        "Panoramic views of Paris from the Belvédère viewpoint"
+        "A few open clearings reveal the horizons of southwestern Paris"
       ]
     }
   },
@@ -49,17 +49,17 @@
       {
         "id": "history",
         "title": "History & Origins",
-        "content": "The history of Forêt de Meudon dates back to the Middle Ages when it served as a hunting ground for French royalty. The forest once covered a much larger area, but due to urban expansion and agricultural development, it has been reduced to its current 1,100 hectares.\n\nIn the 17th century, during the reign of Louis XIV, Forêt de Meudon was officially designated as a royal forest, managed by dedicated forest rangers. After the French Revolution, the forest became state property (domaine national), which is the origin of its name 'Forêt domaniale'.\n\nIn the late 19th century, famous Impressionist painters such as Monet and Renoir visited Forêt de Meudon multiple times, creating many masterpieces depicting the forest scenery. Today, the forest continues to be a source of inspiration for artists and nature lovers alike."
+        "content": "The history of Forêt de Meudon dates back to the Middle Ages, when it served as a hunting ground for French royalty. The forest once covered a much larger area, but due to urban expansion and agricultural development it has been reduced to its current 1,100 hectares.\n\nIn the 17th century, during the reign of Louis XIV, Forêt de Meudon was officially designated as a royal forest, managed by dedicated forest rangers. After the French Revolution, the forest became state property (domaine national), which is the origin of its name 'Forêt domaniale'.\n\nToday, the forest continues to be a source of inspiration for artists and nature lovers alike, and it remains a well-loved natural space for walking and hiking."
       },
       {
         "id": "biodiversity",
         "title": "Biodiversity",
-        "content": "Forêt de Meudon is one of the most biologically rich areas in the Île-de-France region. The forest is primarily composed of three main tree species: oak (approx. 40%), beech (approx. 30%), and pine (approx. 20%), with the remainder being various broadleaf trees.\n\nIn terms of wildlife, the forest is home to several mammal species, including:\n- Fallow deer and sika deer\n- Wild boar (population and range increasing)\n- Foxes, badgers, squirrels\n- Various small mammals\n\nBird resources are also abundant, with over 80 species recorded, including: woodpeckers, owls, various birds of prey, and migratory birds. Spring and autumn are excellent times for birdwatching."
+        "content": "Forêt de Meudon is one of the most biologically rich areas in the Île-de-France region. The main tree species are oak, beech and pine, complemented by various broadleaf trees.\n\nSeveral mammals live here (roe deer, wild boar, foxes, squirrels, badgers) alongside varied birdlife, especially active in spring and autumn. The forest also holds wetlands and edge habitats that support biodiversity. For precisely recorded species, refer to ONF inventories or local naturalist associations."
       },
       {
         "id": "recreation",
         "title": "Recreation & Activities",
-        "content": "Forêt de Meudon offers a wide range of outdoor activities and recreational options:\n\n**Hiking**: Over 50 kilometers of clearly marked trails, with difficulty ranging from easy to moderate. Recommended routes include:\n- Sentier des Carrières (Quarry Trail): 3 km, suitable for families\n- Boucle du Mont Valérien (Mont Valérien Loop): 8 km, beautiful scenery\n- Sentier des Crêtes (Ridge Trail): 12 km, overlooks Paris\n\n**Cycling**: Some trails allow mountain biking, but follow signage.\n\n**Running**: The forest is a popular spot for runners in the Paris region, with several running clubs training here regularly.\n\n**Nature Education**: The forest offers guided nature tours, suitable for families and school groups."
+        "content": "Forêt de Meudon offers a wide range of outdoor activities:\n\n**Hiking**: a network of waymarked forest tracks with varying difficulty. The ONF has laid out discovery routes here, including an approximately 8 km lakes circuit.\n\n**Cycling**: some wide tracks are used for mountain biking, in line with the signage.\n\n**Running**: the forest is a favourite spot for runners from the Paris region.\n\n**Nature education**: discovery walks are sometimes offered, suited to families and school groups. For up-to-date routes, check the ONF documents."
       },
       {
         "id": "conservation",
@@ -79,7 +79,7 @@
     "city": "City",
     "cityValue": "Meudon, Hauts-de-Seine",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.4/5 (5,436)",
+    "googleRatingValue": "4.4/5 (5,460)",
     "phone": "Phone",
     "address": "Address",
     "addressValue": "Q6W5+8R Meudon, France"
@@ -87,7 +87,7 @@
   "hours": {
     "title": "Visiting Information",
     "park": "Opening Hours",
-    "parkTime": "Open year-round 24/7, free entrance",
+    "parkTime": "Free access, open all year round (no ticket office)",
     "bestTime": "Best Time to Visit",
     "bestTimeSpring": "Spring (Mar-May): Wildflowers bloom, mild weather, ideal for hiking",
     "bestTimeSummer": "Summer (Jun-Aug): Lush green canopies, but beware of insects",
@@ -111,7 +111,7 @@
     "fromStation": "From Meudon Train Station",
     "fromStationDesc": "Exit Meudon station towards the forest, follow Avenue du Château, then follow 'Forêt' signs. Walk about 15 minutes.",
     "publicTransport": "Public Transport",
-    "publicTransportDesc": "Take Transilien N (from Paris Montparnasse) or U (from La Défense) to Meudon station. Or take buses 162, 360 to 'Forêt de Meudon' stop.",
+    "publicTransportDesc": "Transilien line N (from Paris Montparnasse) and line U (from La Défense) serve Meudon station. Several bus lines also connect the neighbouring communes: check the Île-de-France Mobilités website for the stop closest to your chosen entrance.",
     "walking": "Walking & Cycling",
     "walkingDesc": "Walking from Meudon town to the forest is very convenient. The forest has over 50 km of trails, also suitable for cycling (mountain bikes).",
     "driving": "Driving & Parking",
@@ -121,18 +121,14 @@
   },
   "route": {
     "title": "Recommended Hiking Routes",
-    "overview": "Start from Meudon train station, walk to the main forest entrance (15 min), choose Sentier des Carrières (3 km, 1.5 hours) for an easy tour, or challenge Boucle du Mont Valérien (8 km, 3.5 hours) for panoramic views. The route includes multiple viewpoints and historical sites.",
+    "overview": "From Meudon station, allow 10 to 20 minutes on foot to a forest edge. Then choose a route to fit your available time: a short one-hour loop, or the waymarked lakes circuit of about 8 km for a half day. Stay on waymarked paths and carry an offline map.",
     "steps": [
-      "Start from Meudon train station, walk along Avenue du Château",
-      "Arrive at the main forest entrance, check the information board for maps",
-      "Choose a route suitable for your fitness and time (recommended for beginners: Sentier des Carrières)",
-      "Enjoy ancient trees, small wetlands, and wildlife along the way",
-      "Reach the Belvédère viewpoint, overlook Paris panorama and Eiffel Tower",
-      "Visit the old quarry ruins (Carrières de Meudon)",
-      "Continue along marked trails, enjoy forest bathing",
-      "Rest at picnic areas, enjoy your own food and drinks",
-      "Return to the main entrance, walk back to Meudon train station",
-      "End your trip with French pastries at a café in Meudon town"
+      "Reach Meudon station from Paris (Transilien line N from Montparnasse).",
+      "Walk 10 to 20 minutes towards a forest edge, following the town signage.",
+      "Pick a route that fits your time: a short loop, or the lakes circuit (~8 km).",
+      "Enjoy the oaks, beeches and pines, and the wetlands along the way.",
+      "Pause at an open clearing to watch wildlife or glimpse southwestern Paris.",
+      "Return to your start on a parallel path, then walk back to the station."
     ]
   },
   "photoSpots": {
@@ -192,42 +188,23 @@
       "Belvédère Viewpoint",
       "Wildlife",
       "Quarry Ruins",
-      "Wetland Ecosystem"
+      "Wetland Ecosystem",
+      "Moss and ferns",
+      "Autumn trail",
+      "Sunlit clearing",
+      "Pond edge",
+      "Winter undergrowth",
+      "Mushrooms"
     ],
     "viewAll": "View on Google Maps",
     "showAll": "View All Photos",
     "showLess": "Show Less"
   },
   "reviews": {
-    "title": "Visitor Reviews",
-    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
-    "moreReviews": "View more reviews on Google Maps",
-    "items": [
-      {
-        "name": "Pierre Dupont",
-        "date": "April 2026",
-        "rating": 5,
-        "text": "The most beautiful forest near Paris! Well-maintained trails, charming scenery. The view of Paris from the Belvédère viewpoint is breathtaking. Highly recommended for all nature lovers!"
-      },
-      {
-        "name": "Marie Leblanc",
-        "date": "March 2026",
-        "rating": 5,
-        "text": "Hike here every weekend, beautiful scenery in all seasons. The forest in autumn is like a painting. Free entrance, convenient parking. Parisians' backyard!"
-      },
-      {
-        "name": "John Smith",
-        "date": "February 2026",
-        "rating": 4,
-        "text": "Easy to get here from Paris city center, Transilien train goes directly. The forest is huge, recommend getting a map. Some trails were a bit muddy, suggest waterproof shoes. Worth a visit!"
-      },
-      {
-        "name": "Sofia Rossi",
-        "date": "January 2026",
-        "rating": 5,
-        "text": "As a nature photographer, I found countless shooting opportunities here. The misty forest in early morning, sunlight filtering through leaves - unforgettable beauty. Will definitely come back!"
-      }
-    ]
+    "title": "Visitor reviews",
+    "ratingNote": "Average Google Maps rating: 4.4 / 5 from 5,460 reviews (verified October 2026).",
+    "snippet": "Valued for its shaded trails, its ponds and its proximity to Paris, the Forêt de Meudon is a free, family-friendly nature outing.",
+    "moreReviews": "Read reviews on Google Maps"
   },
   "mapSection": {
     "title": "How to Get Here",
@@ -315,5 +292,49 @@
   "officialManagement": {
     "title": "About Forêt domaniale de Meudon",
     "text": "Forêt domaniale de Meudon is one of the most important natural reserves in the Île-de-France region of France, covering approximately 1,100 hectares. This forest was once a hunting ground for French royalty and is now managed by the Office National des Forêts (ONF), open to the public free of charge.\n\nThe forest features over 50 kilometers of trails, rich biodiversity, and breathtaking views of Paris from the Belvédère viewpoint. Whether you are a hiking enthusiast, nature photographer, or simply want to escape the city noise, Forêt de Meudon is the ideal choice."
+  },
+  "topics": {
+    "factsTitle": "Key facts",
+    "mapTitle": "Location",
+    "openMaps": "Open in Google Maps",
+    "faqTitle": "Frequently asked questions",
+    "sourcesTitle": "Official sources",
+    "sourcesNote": "This is an independent information guide. Figures (area, management, access, rating) are indicative and may change; refer to the sources above for the latest data.",
+    "backToHome": "Back to the home page"
+  },
+  "topicsSection": {
+    "title": "Practical guides for your visit",
+    "subtitle": "Hiking, trail map, lakes walk and access: our pages to help you plan your trip to the Forêt de Meudon.",
+    "readMore": "Read the guide"
+  },
+  "faqSection": {
+    "title": "Frequently asked questions about the Forêt de Meudon",
+    "subtitle": "Answers to the most common questions before you go.",
+    "items": [
+      {
+        "question": "Is the Forêt de Meudon open and free?",
+        "answer": "Yes. It is a national forest managed by the ONF, open to everyone free of charge, with no ticket or booking."
+      },
+      {
+        "question": "Where do I enter the forest from Paris?",
+        "answer": "From Paris Montparnasse, Transilien line N reaches Meudon station in about twenty minutes; allow another 10 to 20 minutes on foot to a forest edge. Several buses also serve the neighbouring communes."
+      },
+      {
+        "question": "Are there waymarked trails?",
+        "answer": "Yes. The ONF builds and maintains waymarked discovery routes, including a lakes circuit of about 8 km. Stay on waymarked paths and carry a map."
+      },
+      {
+        "question": "Can I bring my dog?",
+        "answer": "Dogs are welcome but must be kept on a lead, to protect the wildlife and the calm of the massif."
+      },
+      {
+        "question": "Can I cycle or run?",
+        "answer": "Wide forest tracks are used by cyclists and runners. Keep a moderate pace and give way to pedestrians."
+      },
+      {
+        "question": "When is the best season to visit?",
+        "answer": "Spring and autumn are the most pleasant (wildflowers, colours). In summer, go early; in winter, some trails can be muddy."
+      }
+    ]
   }
 }

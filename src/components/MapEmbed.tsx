@@ -21,8 +21,7 @@ export default function MapEmbed() {
           style={{ border: '1px solid var(--map-border)' }}
         >
           {/*
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
+            Google Maps attribution (.gm-style-cc) is shown as required by Google's ToS.
           */}
           <iframe
             src="https://maps.google.com/maps?q=For%C3%AAt+domaniale+de+Meudon&output=embed"
@@ -39,7 +38,7 @@ export default function MapEmbed() {
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://maps.app.goo.gl/XqsAuxMWoZwWK7UD6"
+            href="https://maps.app.goo.gl/x72sfn3MWeRm2ATy8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"

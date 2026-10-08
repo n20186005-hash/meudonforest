@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/meudonforest (1).jpg"
+          src="/gallery/meudon-forest-1.jpg"
           alt="Forêt domaniale de Meudon"
           className="w-full h-full object-cover"
         />
@@ -42,7 +42,7 @@ export default function Hero() {
               <span className="text-white text-sm">{t('type')}</span>
             </div>
             <a
-              href="https://maps.app.goo.gl/XqsAuxMWoZwWK7UD6"
+              href="https://maps.app.goo.gl/x72sfn3MWeRm2ATy8"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2 hover:bg-white/25 transition-colors"

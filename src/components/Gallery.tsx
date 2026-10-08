@@ -1,38 +1,29 @@
 'use client';
 
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/meudonforest (1).jpg', alt: 'Forest panorama' },
-  { src: '/gallery/meudonforest (2).jpg', alt: 'Ancient oak trees' },
-  { src: '/gallery/meudonforest (3).jpg', alt: 'Forest trail' },
-  { src: '/gallery/meudonforest (4).jpg', alt: 'Autumn scenery' },
-  { src: '/gallery/meudonforest (5).jpg', alt: 'Belvédère viewpoint' },
-  { src: '/gallery/meudonforest (6).jpg', alt: 'Wildlife' },
-  { src: '/gallery/meudonforest (7).jpg', alt: 'Quarry ruins' },
-  { src: '/gallery/meudonforest (8).jpg', alt: 'Wetland ecosystem' },
-  { src: '/gallery/meudonforest (9).jpg', alt: 'Forest path' },
-  { src: '/gallery/meudonforest (10).jpg', alt: 'Tree canopy' },
-  { src: '/gallery/meudonforest (11).jpg', alt: 'Sunlight through leaves' },
-  { src: '/gallery/meudonforest (12).jpg', alt: 'Forest stream' },
-  { src: '/gallery/meudonforest (13).jpg', alt: 'Mushrooms and ferns' },
-  { src: '/gallery/meudonforest (14).jpg', alt: 'Paris view from viewpoint' },
-];
+const GOOGLE_MAPS_URL = 'https://maps.app.goo.gl/x72sfn3MWeRm2ATy8';
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const captions = (t.raw('captions') as string[]) || [];
+  const photos = captions.map((caption, i) => ({
+    src: `/gallery/meudon-forest-${i + 1}.jpg`,
+    alt: `${caption} — Forêt domaniale de Meudon`,
+  }));
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
-  }, []);
+  }, [photos.length]);
 
   const goToNext = useCallback(() => {
     setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
-  }, []);
+  }, [photos.length]);
 
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
@@ -116,7 +107,7 @@ export default function Gallery() {
                 </button>
               )}
               <a
-                href="https://maps.app.goo.gl/XqsAuxMWoZwWK7UD6"
+                href={GOOGLE_MAPS_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"

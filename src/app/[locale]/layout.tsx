@@ -1,7 +1,9 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
+import { routing, type Locale } from '@/i18n/routing';
+import { SITE_URL, attraction, htmlLang, htmlLocales } from '@/lib/site';
+import { buildAlternates, absoluteUrl } from '@/lib/seo';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
@@ -15,32 +17,27 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await import(`@/messages/${locale}.json`)).default;
-  const baseUrl = 'https://meudonforest.com';
-
-  const zhUrl = `${baseUrl}/`;
-  const enUrl = `${baseUrl}/en`;
-  const frUrl = `${baseUrl}/fr`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'fr' ? frUrl : enUrl;
+  const selfUrl = absoluteUrl('/', locale as Locale);
 
   return {
+    metadataBase: new URL(SITE_URL),
     title: messages.meta.title,
     description: messages.meta.description,
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'x-default': zhUrl,
-      },
-    },
+    alternates: buildAlternates('/', locale as Locale),
     openGraph: {
       title: messages.meta.title,
       description: messages.meta.description,
       url: selfUrl,
-      siteName: "Forêt domaniale de Meudon",
-      locale: locale === 'zh' ? 'zh_CN' : locale === 'fr' ? 'fr_FR' : 'en_US',
+      siteName: attraction.name,
+      images: [{ url: attraction.heroImage, width: 1200, height: 800, alt: attraction.name }],
+      locale: htmlLocales[locale as Locale],
       type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: messages.meta.title,
+      description: messages.meta.description,
+      images: [attraction.heroImage],
     },
   };
 }
@@ -54,7 +51,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
 
@@ -62,12 +59,8 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale === 'zh' ? 'zh-CN' : locale} suppressHydrationWarning>
+    <html lang={htmlLang[locale as Locale]} suppressHydrationWarning>
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
-        {/* 注意：请将上面的 ca-pub-XXXXXXXXXX 替换为您的 Google AdSense 发布商 ID */}
-        <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
-        {/* 注意：请将上面的 ca-pub-XXXXXXXXXX 替换为您的 Google AdSense 发布商 ID */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -84,9 +77,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body className="min-h-screen">
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
       </body>
     </html>
   );
