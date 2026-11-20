@@ -1,4 +1,5 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
+import NearbyPlaces from '@/components/NearbyPlaces';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
@@ -72,6 +73,7 @@ export default async function HomePage({
         <HotelsSection />
         <Gallery />
         <Reviews />
+        <NearbyPlaces locale={locale as Locale} />
         <TopicsSection locale={locale as Locale} />
         <FaqSection locale={locale as Locale} />
         <MapEmbed />

@@ -16,7 +16,7 @@ export const attraction = {
   ],
   attractionType: 'National forest',
   manager: 'Office national des forêts (ONF)',
-  areas: 'Meudon, Chaville, Clamart, Sèvres, Vélizy-Villacoublay, Viroflay (Hauts-de-Seine)',
+  areas: 'Meudon, Chaville, Clamart, Sèvres (Hauts-de-Seine), Vélizy-Villacoublay et Viroflay (Yvelines)',
   areaHectares: 1100,
   surroundings: 'banlieue sud-ouest de Paris',
   region: 'Île-de-France',
@@ -28,16 +28,14 @@ export const attraction = {
     addressCountry: 'FR',
   },
   plusCode: 'Q6W5+8R Meudon, France',
-  // Repère géographique public : centre de Meudon (à titre indicatif)
-  geo: { latitude: 48.8142, longitude: 2.2457 },
-  // Instantané Google Maps — vérifié en octobre 2026
+  // Repère du massif publié par Destination Hauts-de-Seine.
+  geo: { latitude: 48.80652, longitude: 2.233576 },
   googleMaps: {
-    rating: 4.4,
-    reviewCount: 5460,
     url: 'https://maps.app.goo.gl/x72sfn3MWeRm2ATy8',
   },
   // Ressources officielles / gestionnaire
-  managerUrl: 'https://www.onf.fr/',
+  threePondWalkUrl: 'https://destination.hauts-de-seine.fr/balade-3-etangs-en-foret-de-meudon.html',
+  managerUrl: 'https://www.onf.fr/vivre-la-foret/foret-domaniale-pres-de-chez-moi/%2B/174b%3A%3Aforet-domaniale-de-meudon.html',
   regionUrl: 'https://www.iledefrance.fr/',
   transportUrl: 'https://www.iledefrancemobilites.fr/',
   ecologyUrl: 'https://www.ecologie.gouv.fr/',
@@ -100,13 +98,6 @@ export function buildAttractionSchema(names: {
     sameAs: [attraction.googleMaps.url, attraction.managerUrl],
     isAccessibleForFree: true,
     publicAccess: true,
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: attraction.googleMaps.rating,
-      reviewCount: attraction.googleMaps.reviewCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
     knowsAbout: [
       `Forêt domaniale de Meudon`,
       `randonnée en Forêt de Meudon`,
@@ -125,11 +116,6 @@ export function buildWebSiteSchema(localeNames: Record<Locale, string>) {
     name: localeNames.fr,
     inLanguage: Object.keys(localeNames),
     publisher: { '@id': `${SITE_URL}/#organization` },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${SITE_URL}/?q={search_term_string}`,
-      'query-input': 'required name=search_term_string',
-    },
   };
 }
 

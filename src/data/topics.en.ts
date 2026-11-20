@@ -9,7 +9,7 @@ export const enTopics: Record<string, TopicContent> = {
     intro: [
       'The Forêt domaniale de Meudon covers roughly 1,100 hectares southwest of Paris, spread across the communes of Meudon, Chaville, Clamart, Sèvres, Vélizy-Villacoublay and Viroflay. Managed by the French national forestry office (Office national des forêts, ONF), it is open to everyone free of charge, which makes it one of the easiest nature outings from the capital.',
       'There is no ticket and no single "full loop": each visitor builds a route from the network of forest tracks. The simplest approach for a first visit is to pick an edge reached by train or bus, then design a loop whose distance and duration you know beforehand.',
-      'ONF has laid out and waymarked several discovery trails in the massif, including a lakes circuit of about 8 km. Because official routes can change (forestry work, felling, weather), check the ONF map — or an offline mapping app — before leaving, and stay on waymarked paths.',
+      'The department publishes a 13 km three-pond route from Meudon Val-Fleury. Check ONF access notices and use an offline map to stay on open paths.',
     ],
     facts: [
       { label: 'Area', value: 'About 1,100 hectares (public data)' },
@@ -28,7 +28,7 @@ export const enTopics: Record<string, TopicContent> = {
         ],
         bullets: [
           'Short outing (1–1.5 h): from an edge, follow a forest track for 20–30 minutes, turn around and come back the same way — good with children or in uncertain weather.',
-          'Half day (2.5–3.5 h): a loop of about 8 km, close to the lakes circuit published by ONF, gives a solid overview of the massif.',
+          'For a longer outing, follow the 13 km three-pond route from Meudon Val-Fleury, which takes in town streets as well as forest paths.',
           'Long loop (4 h+): link several sectors on waymarked tracks, for example between the Meudon, Chaville and Viroflay edges, carrying water and snacks.',
           'Running: the wide tracks and moderate relief attract many runners; set off early at weekends if you prefer quiet paths.',
         ],
@@ -81,12 +81,12 @@ export const enTopics: Record<string, TopicContent> = {
       {
         question: 'Which hike should I choose for a first visit?',
         answer:
-          'The easiest start is walking to an edge from Meudon station, following a forest track for 30–45 minutes and returning the same way. For a longer outing, the lakes loop of about 8 km gives a good overview.',
+          'For a short taste of the forest, pick a signed entrance and return by the same path. For a longer outing, follow the published three-pond route from Meudon Val-Fleury.',
       },
       {
         question: 'How long does the lakes circuit take?',
         answer:
-          'For a loop of around 8 km on rolling ground, allow 2.5–3.5 hours including breaks. Adjust the estimate to your pace and to trail conditions after rain.',
+          'Allow time for a hilly 13 km route and for stops in town. For a shorter walk, choose an out-and-back from a specific gate.',
       },
       {
         question: 'Can you hike here with children?',
@@ -194,9 +194,9 @@ export const enTopics: Record<string, TopicContent> = {
           'Access to the massif is free, but individual plots may close temporarily for forestry work or regeneration. Follow the signage on site.',
       },
       {
-        question: 'Is there an 8 km marked route?',
+        question: 'Where can I find a published pond walk?',
         answer:
-          'Yes, several waymarked discovery routes exist in the massif, including a lakes circuit of about 8 km; check the ONF documents for the current route.',
+          'Destination Hauts-de-Seine publishes a 13 km route from Meudon Val-Fleury. Consult the ONF for changes to forest access.',
       },
       {
         question: 'Is mobile coverage reliable in the forest?',
@@ -211,15 +211,15 @@ export const enTopics: Record<string, TopicContent> = {
     slug: 'balade-etangs-meudon',
     title: 'Meudon Forest lakes walk: route, seasons and wildlife watching',
     description:
-      'Plan the lakes walk in the Forêt de Meudon: roughly 8 km loop, wetlands, birdwatching tips, best seasons and practical advice for enjoying the massif.',
+      'Plan Meudon’s three-pond walk: a 13 km route from Val-Fleury past forest ponds and historic landmarks.',
     intro: [
       'The lakes walk is one of the most popular outings in the Forêt domaniale de Meudon: it combines forest tracks, water bodies and open areas over a distance that fits easily into a half day.',
       'The massif has several ponds and wetlands, some of them laid out for walking. These habitats are fragile: waterbirds and amphibians nest or breed there, which explains the quiet-zone notices on site.',
-      'The distance usually quoted for this kind of loop is around 8 km, to be adapted to your starting point, your pace and any detours to viewpoint spots.',
+      'The department’s 13 km route begins at Meudon Val-Fleury and passes Parc Paumier, Chalais, Étang de Meudon, Villebon and the observatory terrace.',
     ],
     facts: [
-      { label: 'Reference distance', value: 'About 8 km loop, depending on the start' },
-      { label: 'Estimated duration', value: '2.5–3.5 hours including breaks' },
+      { label: 'Reference distance', value: '13 km on the published route from Meudon Val-Fleury' },
+      { label: 'Estimated duration', value: 'Depends on walking pace, hills and stops' },
       { label: 'Terrain', value: 'Forest tracks, sections beside wetlands' },
       { label: 'Good for', value: 'Family nature outing, birdwatching, photography' },
       { label: 'Access', value: 'Free and open, no ticket required' },
@@ -231,7 +231,7 @@ export const enTopics: Record<string, TopicContent> = {
         heading: 'How the lakes loop works',
         paragraphs: [
           'The route links several water bodies in the massif while staying on waymarked forest tracks, then returns to your starting edge by another path. There is no imposed direction: adapt it to where you begin.',
-          'The 8 km distance corresponds to a full loop from an equipped edge. Starting closer to the ponds shortens the same walk by one or two kilometres.',
+          'You can shorten the outing by choosing a single pond and planning an out-and-back. Recheck access at the forest edge.',
         ],
       },
       {
@@ -244,7 +244,7 @@ export const enTopics: Record<string, TopicContent> = {
           'Waterbirds and ducks on the ponds, depending on the season.',
           'Amphibians in spring, in the wetlands and forest pools.',
           'Dragonflies and damselflies in summer along the banks.',
-          'Oaks, beeches and Scots pines, which make up most of the canopy.',
+          'Sweet chestnut, beech and oak are characteristic of the forest.',
         ],
       },
       {
@@ -272,7 +272,7 @@ export const enTopics: Record<string, TopicContent> = {
       {
         question: 'How long is the lakes walk?',
         answer:
-          'The reference loop towards the lakes is about 8 kilometres, roughly 2.5–3.5 hours of walking depending on pace. It can be shortened by starting from an edge closer to the water.',
+          'The department’s loop is 13 km from Meudon Val-Fleury. For a shorter outing, pick one pond or turn back by the planned path.',
       },
       {
         question: 'Is the lakes route waymarked?',

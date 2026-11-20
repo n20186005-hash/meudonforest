@@ -6,6 +6,8 @@ import { Link } from '@/i18n/navigation';
 import { absoluteUrl, buildAlternates, type Href } from '@/lib/seo';
 import { SITE_URL, attraction, buildBreadcrumbSchema, buildFaqSchema, buildWebPageSchema } from '@/lib/site';
 import { topics, topicKeys, getRelatedTopics, isTopicKey, type TopicKey } from '@/data/topics';
+import LanguageToggle from '@/components/LanguageToggle';
+import { nearbyLabels } from '@/data/nearby';
 import StructuredData from '@/components/StructuredData';
 
 export function generateStaticParams() {
@@ -77,7 +79,7 @@ export default async function TopicPage({
       <StructuredData data={[webPageSchema, breadcrumbSchema, faqSchema]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-24 sm:py-28">
-        <nav aria-label="Fil d’Ariane" className="mb-8">
+        <nav aria-label={nearbyLabels[locale as Locale].name} className="mb-8 flex flex-wrap gap-4 items-center">
           <Link
             href="/"
             className="inline-flex items-center gap-2 text-sm font-medium"
@@ -89,6 +91,8 @@ export default async function TopicPage({
             </svg>
             {attraction.name}
           </Link>
+          <Link href="/a-proximite" className="underline text-sm">{nearbyLabels[locale as Locale].name}</Link>
+          <div className="ml-auto"><LanguageToggle /></div>
         </nav>
 
         <h1 className="font-display text-3xl sm:text-4xl font-bold mb-6" style={{ color: 'var(--text-primary)' }}>
@@ -252,6 +256,7 @@ export default async function TopicPage({
           <ul className="space-y-2 text-sm">
             {[
               { href: attraction.managerUrl, label: 'Office national des forêts (ONF)' },
+              { href: attraction.threePondWalkUrl, label: 'Destination Hauts-de-Seine' },
               { href: attraction.transportUrl, label: 'Île-de-France Mobilités' },
               { href: attraction.googleMaps.url, label: 'Google Maps' },
             ].map((source) => (

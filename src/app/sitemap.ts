@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getPathname } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import { SITE_URL } from '@/lib/site';
+import { nearbyHref, nearbyPlaces } from '@/data/nearby';
 import { topicKeys } from '@/data/topics';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of routing.locales) {
       langs[locale] = `${SITE_URL}${getPathname({ locale, href })}`;
     }
+    langs['x-default'] = langs.fr;
     return langs;
   };
 
@@ -24,6 +26,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
       alternates: { languages: languagesFor(homeHref) },
     });
+
+    for (const href of ['/a-proximite' as const, ...nearbyPlaces.map(nearbyHref)]) {
+      entries.push({
+        url: `${SITE_URL}${getPathname({ locale, href })}`,
+        alternates: { languages: languagesFor(href) },
+      });
+    }
 
     for (const key of topicKeys) {
       const href = `/${key}` as Parameters<typeof getPathname>[0]['href'];

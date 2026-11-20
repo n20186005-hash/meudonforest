@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Forêt de Meudon : randonnées, carte, étangs et accès",
-    "description": "Découvrez la Forêt de Meudon près de Paris : sentiers de randonnée, balade des étangs, carte, accès en transports et conseils pour organiser votre visite."
+    "title": "Forêt de Meudon : balades, étangs, carte et accès",
+    "description": "Préparez une balade dans la forêt de Meudon : circuits des étangs, carte, accès en train et visites dans les communes voisines."
   },
   "header": {
     "home": "Accueil",
@@ -12,20 +12,18 @@
   },
   "hero": {
     "title": "Forêt domaniale de Meudon",
-    "subtitle": "Oasis naturelle près de Paris, Forêt royale historique",
-    "rating": "4,4 (5 460)",
-    "reviewCount": "5 460 avis",
-    "type": "Réserve Naturelle · Sentiers Forestiers · Près de Paris",
+    "subtitle": "Sentiers forestiers et étangs aux portes de Paris",
+    "type": "Forêt domaniale · Randonnée · Sud-ouest de Paris",
     "openMaps": "Voir l'emplacement"
   },
   "intro": {
     "title": "Découvrez la Forêt domaniale de Meudon",
-    "description": "La Forêt domaniale de Meudon est une forêt publique située dans la banlieue sud-ouest de Paris, s'étendant sur environ 1 100 hectares à cheval sur plusieurs communes des Hauts-de-Seine. Gérée par l'Office national des forêts (ONF), elle se visite librement et gratuitement, ce qui en fait l'une des sorties nature les plus accessibles depuis la capitale.\n\nLe massif est parcouru par un réseau de sentiers forestiers. Selon l'ONF, un circuit des étangs d'environ 8 km y est balisé et documenté. La végétation, dominée par les chênes, les hêtres et les pins, offre des paysages variés au fil des saisons. Les fleurs sauvages s'épanouissent au printemps, les canopées verdoyantes procurent de l'ombre en été, le feuillage coloré peint le paysage en automne, et un silence paisible enveloppe la forêt en hiver.\n\nLa forêt abrite une faune variée : chevreuils, sangliers, renards, écureuils et de nombreuses espèces d'oiseaux. Pour les amateurs de nature et les photographes, c'est un lieu privilégié. Depuis quelques points dégagés, on devine les horizons du sud-ouest parisien.\n\nQue vous souhaitiez marcher une heure ou passer une demi-journée en forêt, la Forêt domaniale de Meudon offre une nature préservée à deux pas de Paris.",
+    "description": "La forêt domaniale de Meudon couvre environ 1 100 hectares dans les Hauts-de-Seine et les Yvelines. Elle est gérée par l’Office national des forêts (ONF). Châtaigniers, hêtres et chênes caractérisent le massif.\n\nChoisissez un accès avant de partir. La promenade des trois étangs de 13 km publiée par Destination Hauts-de-Seine part de Meudon Val-Fleury et associe forêt et patrimoine urbain. Un aller-retour depuis une lisière permet une sortie plus courte.",
     "visitGuide": {
       "title": "Conseils de visite",
       "items": [
         "Entrée libre et gratuite, accès sans billet",
-        "Entrée principale recommandée : à 10 minutes à pied de la gare de Meudon",
+        "Choisissez une entrée selon votre itinéraire et vérifiez l’accès piéton.",
         "Meilleures saisons pour la randonnée : printemps et automne, temps agréable",
         "Apportez de l'eau et des collations, installations limitées dans la forêt",
         "Portez des chaussures de randonnée confortables, certains sentiers peuvent être glissants",
@@ -35,8 +33,8 @@
     "alsoKnownAs": {
       "title": "Points forts",
       "items": [
-        "Environ 1 100 hectares, à cheval sur plusieurs communes des Hauts-de-Seine",
-        "Réseau de sentiers forestiers, dont un circuit des étangs balisé d'environ 8 km",
+        "Environ 1 100 hectares dans les Hauts-de-Seine et les Yvelines",
+        "Sentiers forestiers et circuit des trois étangs de 13 km publié par Destination Hauts-de-Seine",
         "Ancien terrain de chasse de la royauté française, histoire remontant au Moyen Âge",
         "Riche biodiversité, habitat de diverses espèces de la faune et de la flore",
         "Quelques points dégagés offrent des vues sur le sud-ouest parisien"
@@ -49,22 +47,22 @@
       {
         "id": "history",
         "title": "Histoire & Origines",
-        "content": "L'histoire de la Forêt de Meudon remonte au Moyen Âge, époque où elle servait de terrain de chasse pour la royauté française. La forêt couvrait autrefois une superficie beaucoup plus vaste, mais en raison de l'expansion urbaine et du développement agricole, elle a été réduite à ses 1 100 hectares actuels.\n\nAu 17ème siècle, sous le règne de Louis XIV, la Forêt de Meudon a été officiellement désignée comme forêt royale, gérée par des gardes forestiers dédiés. Après la Révolution française, la forêt est devenue propriété de l'État (domaine national), d'où son nom de « Forêt domaniale ».\n\nAujourd'hui, la forêt continue d'être une source d'inspiration pour les artistes et les amoureux de la nature, et elle reste un espace naturel fréquenté pour la promenade et la randonnée."
+        "content": "Au XVIIe siècle, Abel Servien puis Louvois font aménager des étangs et des rigoles pour alimenter les jardins du château. Les carrefours en étoile rappellent les chasses royales. La forêt devient domaniale à la Révolution."
       },
       {
         "id": "biodiversity",
         "title": "Biodiversité",
-        "content": "La Forêt de Meudon est l'une des zones les plus riches sur le plan biologique de la région Île-de-France. Les essences principales y sont le chêne, le hêtre et le pin, complétées par divers feuillus.\n\nOn y observe plusieurs mammifères (chevreuils, sangliers, renards, écureuils, blaireaux) et une avifaune variée, particulièrement active au printemps et en automne. La forêt abrite aussi des zones humides et des milieux de lisière propices à la biodiversité. Pour les espèces précisément recensées, référez-vous aux inventaires de l'ONF ou des associations naturalistes locales."
+        "content": "Châtaigniers, hêtres et chênes caractérisent la forêt. L’ONF décrit des versants secs, des bas-fonds humides et des milieux de berge. Observez ces transitions depuis le chemin et laissez de l’espace aux oiseaux près de l’eau."
       },
       {
         "id": "recreation",
         "title": "Loisirs & Activités",
-        "content": "La Forêt de Meudon propose un large éventail d'activités de plein air :\n\n**Randonnée** : un réseau de sentiers forestiers balisés, aux difficultés variables. L'ONF y a aménagé des itinéraires de découverte, dont un circuit des étangs d'environ 8 km.\n\n**Vélo** : certains chemins larges sont pratiqués en VTT, dans le respect de la signalisation.\n\n**Course à pied** : la forêt est un lieu prisé des coureurs de la région parisienne.\n\n**Éducation à la nature** : des balades découverte y sont parfois proposées, adaptées aux familles et aux groupes scolaires. Pour les itinéraires à jour, consultez les documents de l'ONF."
+        "content": "Suivez un sentier forestier balisé ou le circuit des trois étangs publié par Destination Hauts-de-Seine. Restez sur les chemins ouverts. L’ONF recommande aux cyclistes de circuler sur les chemins de plus de 2,50 mètres de large et de suivre la signalisation."
       },
       {
         "id": "conservation",
         "title": "Conservation & Gestion",
-        "content": "La Forêt domaniale de Meudon est gérée par l'Office National des Forêts (ONF). L'ONF est responsable de la gestion durable de la forêt, du reboisement, de la prévention des incendies et de la gestion de la sécurité des visiteurs.\n\nCes dernières années, l'ONF a mis en œuvre une série de mesures de protection écologique :\n- Limitation du nombre de visiteurs dans les zones écologiques sensibles\n- Plantation régulière d'arbres pour maintenir la diversité et la santé de la forêt\n- Contrôle des espèces invasives pour protéger la faune et la flore indigènes\n- Mise en place de bases pédagogiques pour sensibiliser le public à l'environnement\n\nLes visiteurs sont également encouragés à respecter le principe 'Sans Trace' : ramenez tous vos déchets, ne cueillez pas de plantes, ne nourrissez pas les animaux sauvages et restez sur les sentiers balisés."
+        "content": "L’Office national des forêts gère le massif et publie des informations d’accès. Restez sur les chemins pour limiter le tassement des sols, ne dérangez pas la faune et remportez vos déchets. Consultez les avis de travaux de l’ONF."
       }
     ]
   },
@@ -73,13 +71,11 @@
     "officialName": "Nom officiel",
     "officialNameValue": "Forêt domaniale de Meudon",
     "type": "Type d'attraction",
-    "typeValue": "Réserve Naturelle, Forêt, Destination de randonnée",
+    "typeValue": "Forêt domaniale et espace de randonnée",
     "country": "Pays",
     "countryValue": "France",
     "city": "Ville",
-    "cityValue": "Meudon, Hauts-de-Seine",
-    "googleRating": "Note Google",
-    "googleRatingValue": "4,4/5 (5 460)",
+    "cityValue": "Meudon et communes voisines, Hauts-de-Seine et Yvelines",
     "phone": "Téléphone",
     "address": "Adresse",
     "addressValue": "Q6W5+8R Meudon, France"
@@ -107,29 +103,28 @@
   "transport": {
     "title": "Comment s'y rendre",
     "fromCenter": "Depuis le centre de Paris",
-    "fromCenterDesc": "Prenez la ligne N ou U du Transilien depuis Paris jusqu'à la gare de Meudon, puis marchez environ 15 minutes jusqu'à l'entrée principale de la forêt. Vous pouvez également prendre un bus depuis le Pont de Sèvres.",
-    "fromStation": "Depuis la gare de Meudon",
-    "fromStationDesc": "Sortez de la gare de Meudon en direction de la forêt, suivez l'Avenue du Château, puis suivez les panneaux 'Forêt'. Marchez environ 15 minutes.",
+    "fromCenterDesc": "Prenez le Transilien N depuis Paris-Montparnasse jusqu’à Meudon pour le centre, ou le RER C jusqu’à Meudon Val-Fleury pour la promenade des étangs.",
+    "fromStation": "De la gare à la forêt",
+    "fromStationDesc": "Le massif possède plusieurs accès. Le circuit des trois étangs part de Meudon Val-Fleury et passe par le parc Paumier avant de rejoindre la forêt. Préparez une approche différente si vous visez un autre secteur.",
     "publicTransport": "Transports en commun",
-    "publicTransportDesc": "Le Transilien ligne N (depuis Paris Montparnasse) et la ligne U (depuis La Défense) desservent la gare de Meudon. Plusieurs lignes de bus relient également les communes riveraines : renseignez-vous sur le site d'Île-de-France Mobilités pour l'arrêt le plus proche de l'entrée choisie.",
+    "publicTransportDesc": "Meudon et Bellevue sont desservis par le Transilien N. Meudon Val-Fleury est sur le RER C. Le T6 dessert Meudon-la-Forêt. Vérifiez l’accès choisi sur Île-de-France Mobilités.",
     "walking": "À pied et à vélo",
-    "walkingDesc": "Il est très pratique de se rendre à pied de la ville de Meudon à la forêt. La forêt compte plus de 50 km de sentiers, également adaptés au vélo (VTT).",
+    "walkingDesc": "L’ONF indique environ 130 km de chemins dans le massif. À vélo, privilégiez les chemins de plus de 2,50 mètres de large et suivez les panneaux.",
     "driving": "En voiture et stationnement",
-    "drivingDesc": "Depuis Paris, prenez l'autoroute A13, puis la D907 jusqu'à Meudon. Plusieurs parkings sont disponibles autour de la forêt, mais peuvent être bondés le week-end. Il est recommandé d'arriver tôt ou d'utiliser les transports en commun.",
+    "drivingDesc": "Choisissez d’abord l’entrée et repérez un stationnement autorisé. La N118 divise la forêt; préparez l’approche du bon côté.",
     "fromAirport": "Depuis l'aéroport",
-    "fromAirportDesc": "Depuis l'aéroport Charles de Gaulle (CDG) ou Orly (ORY), prenez le RER B jusqu'au centre de Paris, puis prenez la ligne N ou U du Transilien jusqu'à la gare de Meudon. Le trajet dure environ 1,5 à 2 heures."
+    "fromAirportDesc": "Calculez votre trajet depuis votre terminal jusqu’à Meudon ou Meudon Val-Fleury avec Île-de-France Mobilités. Prévoyez les correspondances, les travaux et la marche finale."
   },
   "route": {
     "title": "Itinéraires de randonnée recommandés",
-    "overview": "Depuis la gare de Meudon, comptez 10 à 20 minutes de marche jusqu'à une lisière de la forêt. Choisissez ensuite un itinéraire selon votre temps disponible : une boucle courte d'une heure, ou le circuit des étangs balisé d'environ 8 km pour une demi-journée. Restez sur les chemins balisés et emportez une carte hors ligne.",
+    "overview": "Choisissez un aller-retour court depuis une entrée repérée ou le circuit des trois étangs de 13 km publié par Destination Hauts-de-Seine. Ce circuit emprunte des rues et des sentiers forestiers depuis Meudon Val-Fleury.",
     "steps": [
-      "Rejoignez la gare de Meudon depuis Paris (Transilien ligne N depuis Montparnasse).",
-      "Marchez 10 à 20 minutes vers une lisière de la forêt, en suivant la signalisation urbaine.",
-      "Choisissez un itinéraire adapté à votre temps : boucle courte ou circuit des étangs (~8 km).",
-      "Profitez des chênes, des hêtres et des pins, ainsi que des zones humides en chemin.",
-      "Faites une pause à un point dégagé pour observer la faune ou les horizons du sud-ouest parisien.",
-      "Revenez à votre point de départ en suivant un chemin parallèle, puis rentrez à pied à la gare."
-    ]
+      "Rejoignez Meudon Val-Fleury (RER C) pour suivre le circuit publié.",
+      "Suivez le tracé par le parc Paumier jusqu’à la forêt.",
+      "Repérez les chemins autour de Chalais puis poursuivez vers l’étang de Meudon et Villebon.",
+      "Selon les conditions, revenez par un chemin prévu ou terminez la boucle par la terrasse et le centre."
+    ],
+    "publishedRoute": "Circuit publié des trois étangs"
   },
   "photoSpots": {
     "title": "Lieux pour la photographie",
@@ -202,8 +197,7 @@
   },
   "reviews": {
     "title": "Avis des visiteurs",
-    "ratingNote": "Note moyenne issue de Google Maps : 4,4 / 5 sur 5 460 avis (vérifiée en octobre 2026).",
-    "snippet": "Appréciée pour ses sentiers ombragés, ses étangs et sa proximité avec Paris, la Forêt de Meudon est une sortie nature familiale et gratuite.",
+    "snippet": "Retrouvez les avis des visiteurs et la note actuelle sur la fiche externe Google Maps.",
     "moreReviews": "Voir les avis sur Google Maps"
   },
   "mapSection": {
@@ -291,7 +285,7 @@
   },
   "officialManagement": {
     "title": "À propos de la Forêt domaniale de Meudon",
-    "text": "La Forêt domaniale de Meudon est l'une des réserves naturelles les plus importantes de la région Île-de-France, couvrant environ 1 100 hectares. Cette forêt, autrefois terrain de chasse de la royauté française, est aujourd'hui gérée par l'Office National des Forêts (ONF) et est ouverte au public gratuitement.\n\nLa forêt offre plus de 50 kilomètres de sentiers, une riche biodiversité et des vues imprenables sur Paris depuis le point de vue du Belvédère. Que vous soyez amateur de randonnée, photographe de nature ou que vous souhaitiez simplement échapper au bruit de la ville, la Forêt de Meudon est le choix idéal."
+    "text": "La forêt domaniale de Meudon couvre environ 1 100 hectares dans les Hauts-de-Seine et les Yvelines. Elle est gérée par l’Office national des forêts (ONF). Châtaigniers, hêtres et chênes caractérisent le massif."
   },
   "topics": {
     "factsTitle": "Informations clés",
@@ -317,11 +311,11 @@
       },
       {
         "question": "Où entrer dans la forêt depuis Paris ?",
-        "answer": "Depuis Paris Montparnasse, le Transilien ligne N rejoint la gare de Meudon en une vingtaine de minutes ; comptez encore 10 à 20 minutes à pied jusqu'à une lisière. Plusieurs bus desservent aussi les communes riveraines."
+        "answer": "Prenez le Transilien N jusqu’à Meudon ou le RER C jusqu’à Meudon Val-Fleury. Choisissez votre gare et le trajet à pied en fonction de l’entrée visée."
       },
       {
         "question": "Y a-t-il des sentiers balisés ?",
-        "answer": "Oui. L'ONF aménage et entretient des itinéraires de découverte balisés, dont un circuit des étangs d'environ 8 km. Restez sur les chemins balisés et emportez une carte."
+        "answer": "Destination Hauts-de-Seine publie une boucle de 13 km depuis Meudon Val-Fleury. Elle emprunte des rues et des sentiers forestiers. Consultez les avis d’accès de l’ONF avant de partir."
       },
       {
         "question": "Peut-on y amener son chien ?",

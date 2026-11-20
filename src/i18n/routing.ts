@@ -5,11 +5,15 @@ export const routing = defineRouting({
   // sur la racine (/). L'anglais et le chinois gardent leur préfixe.
   locales: ['fr', 'en', 'zh'],
   defaultLocale: 'fr',
+  // Keep the French canonical paths stable even for visitors with another preferred language.
+  localeDetection: false,
   localePrefix: {
     mode: 'as-needed',
   },
   pathnames: {
     '/': '/',
+    '/a-proximite': { fr: '/a-proximite', en: '/nearby', zh: '/nearby' },
+    '/a-proximite/[place]': { fr: '/a-proximite/[place]', en: '/nearby/[place]', zh: '/nearby/[place]' },
     // Pages thématiques longue traîne (voir src/data/topics.ts)
     '/randonnee-foret-meudon': {
       fr: '/randonnee-foret-meudon',

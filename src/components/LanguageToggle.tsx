@@ -1,5 +1,6 @@
 'use client';
 
+import { useParams } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { useState, useRef, useEffect } from 'react';
 import { Link, usePathname } from '@/i18n/navigation';
@@ -14,6 +15,10 @@ const labels: Record<string, string> = {
 export default function LanguageToggle() {
   const locale = useLocale();
   const pathname = usePathname();
+  const params = useParams<{ place?: string }>();
+  const href = pathname === '/a-proximite/[place]'
+    ? params.place ? { pathname, params: { place: params.place } } : '/a-proximite'
+    : pathname;
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -57,7 +62,7 @@ export default function LanguageToggle() {
           {routing.locales.map((loc) => (
             <Link
               key={loc}
-              href={pathname}
+              href={href}
               locale={loc as Locale}
               className="block w-full text-left px-4 py-2.5 text-sm transition-colors"
               style={{

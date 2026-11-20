@@ -9,7 +9,7 @@ export const frTopics: Record<string, TopicContent> = {
     intro: [
       'La Forêt domaniale de Meudon s’étend sur environ 1 100 hectares au sud-ouest de Paris, à cheval sur Meudon, Chaville, Clamart, Sèvres, Vélizy-Villacoublay et Viroflay. Gérée par l’Office national des forêts (ONF), elle se visite librement et gratuitement, ce qui en fait l’une des sorties nature les plus accessibles depuis la capitale.',
       'Aucun billet n’est nécessaire et il n’existe pas un « tour complet » unique : chacun compose sa boucle à partir du réseau de chemins forestiers. Pour une première visite, l’approche la plus simple consiste à choisir un point de départ desservi par le train ou le bus, puis à construire une boucle dont vous connaissez la distance et le temps estimé.',
-      'L’ONF a aménagé et balisé dans le massif des itinéraires de découverte, dont un circuit des étangs d’environ 8 kilomètres. Les tracés officiels pouvant évoluer (travaux forestiers, coupes, météo), il est recommandé de consulter la carte de l’ONF ou une application de cartographie hors ligne avant le départ, et de rester sur les chemins balisés.',
+      'Destination Hauts-de-Seine publie un circuit des trois étangs de 13 km depuis Meudon Val-Fleury. Consultez les avis de l’ONF et gardez une carte hors ligne.',
     ],
     facts: [
       { label: 'Superficie', value: 'Environ 1 100 hectares (données publiques)' },
@@ -28,7 +28,7 @@ export const frTopics: Record<string, TopicContent> = {
         ],
         bullets: [
           'Sortie courte (1 h à 1 h 30) : depuis une lisière, marchez 20 à 30 minutes sur un chemin forestier, faites demi-tour et revenez par le même axe. Idéal avec des enfants ou quand le temps est incertain.',
-          'Demi-journée (2 h 30 à 3 h 30) : une boucle d’environ 8 km, proche du circuit des étangs publié par l’ONF, donne un bon aperçu du massif.',
+          'Pour une sortie plus longue, suivez le circuit des trois étangs de 13 km depuis Meudon Val-Fleury, entre rues et chemins forestiers.',
           'Grande boucle (4 h et plus) : reliez plusieurs secteurs en suivant les chemins balisés, par exemple entre les lisières de Meudon, Chaville et Viroflay, en prévoyant eau et ravitaillement.',
           'Course à pied : les chemins larges et le relief modéré du massif attirent de nombreux coureurs ; partez tôt le week-end pour marcher au calme.',
         ],
@@ -81,12 +81,12 @@ export const frTopics: Record<string, TopicContent> = {
       {
         question: 'Quelle randonnée faire pour une première visite ?',
         answer:
-          'La façon la plus simple de débuter est de rejoindre une lisière depuis la gare de Meudon, de suivre un chemin forestier pendant 30 à 45 minutes, puis de revenir sur ses pas. Pour une sortie plus longue, la boucle vers les étangs d’environ 8 km offre un bon aperçu du massif.',
+          'Pour une sortie courte, choisissez une lisière puis revenez sur vos pas. Pour marcher davantage, suivez la boucle départementale depuis Meudon Val-Fleury.',
       },
       {
         question: 'Combien de temps faut-il pour faire le tour des étangs ?',
         answer:
-          'Pour une boucle d’environ 8 km sur terrain vallonné, comptez en général entre 2 h 30 et 3 h 30 de marche, pauses incluses. Adaptez cette estimation à votre allure et à l’état des chemins après la pluie.',
+          'Sur un parcours vallonné de 13 km, prévoyez du temps pour les pentes et les haltes en ville. Pour raccourcir, choisissez un aller-retour depuis une entrée.',
       },
       {
         question: 'Peut-on randonner en Forêt de Meudon avec des enfants ?',
@@ -194,9 +194,9 @@ export const frTopics: Record<string, TopicContent> = {
           'L’accès au massif est libre, mais certaines parcelles peuvent être temporairement fermées pour travaux forestiers ou régénération. Suivez la signalisation présente sur place.',
       },
       {
-        question: 'Peut-on suivre un itinéraire de 8 km dans le massif ?',
+        question: 'Où trouver un circuit des étangs publié ?',
         answer:
-          'Oui, des itinéraires de découverte balisés existent dans le massif, dont un circuit des étangs d’environ 8 km ; reportez-vous aux documents de l’ONF pour le tracé actualisé.',
+          'Destination Hauts-de-Seine publie une boucle de 13 km depuis Meudon Val-Fleury. Consultez l’ONF pour les changements d’accès.',
       },
       {
         question: 'Le réseau mobile passe-t-il partout dans la forêt ?',
@@ -211,15 +211,15 @@ export const frTopics: Record<string, TopicContent> = {
     slug: 'balade-etangs-meudon',
     title: 'Balade des étangs de Meudon : itinéraire, saisons et observation',
     description:
-      'Préparez la balade des étangs dans la Forêt de Meudon : boucle d’environ 8 km, zones humides, observation des oiseaux, meilleures saisons et conseils pratiques pour profiter du massif.',
+      'Préparez la promenade des trois étangs, une boucle de 13 km depuis Val-Fleury entre forêt et patrimoine de Meudon.',
     intro: [
       'La balade vers les étangs est l’une des sorties les plus appréciées de la Forêt domaniale de Meudon : elle combine chemins forestiers, points d’eau et secteurs ouverts, sur une distance compatible avec une demi-journée.',
       'Le massif compte plusieurs étangs et zones humides, dont certains sont aménagés pour la promenade. Ces milieux sont fragiles : les oiseaux d’eau et les amphibiens y nichent ou s’y reproduisent, ce qui explique les consignes de quiétude affichées sur place.',
-      'La distance la plus souvent citée pour ce type de boucle est d’environ 8 km, une longueur à adapter selon votre point de départ, votre allure et les éventuels détours vers les postes d’observation.',
+      'La boucle de 13 km part de Meudon Val-Fleury et dessert le parc Paumier, Chalais, l’étang de Meudon, Villebon et la terrasse de l’Observatoire.',
     ],
     facts: [
-      { label: 'Distance de référence', value: 'Environ 8 km (boucle), à adapter selon le départ' },
-      { label: 'Durée estimée', value: '2 h 30 à 3 h 30, pauses incluses' },
+      { label: 'Distance de référence', value: '13 km sur le parcours publié depuis Meudon Val-Fleury' },
+      { label: 'Durée estimée', value: 'Selon l’allure, les pentes et les haltes' },
       { label: 'Terrain', value: 'Chemins forestiers, passages près de zones humides' },
       { label: 'Idéal pour', value: 'Sortie nature en famille, observation des oiseaux, photographie' },
       { label: 'Accès', value: 'Libre et gratuit, sans billetterie' },
@@ -231,7 +231,7 @@ export const frTopics: Record<string, TopicContent> = {
         heading: 'Le principe de la boucle des étangs',
         paragraphs: [
           'L’itinéraire consiste à relier plusieurs points d’eau du massif en restant sur les chemins forestiers balisés, puis à revenir vers sa lisière de départ par un autre chemin. Il n’impose pas de sens unique : vous pouvez l’adapter à votre point d’arrivée.',
-          'La distance d’environ 8 km correspond à une boucle complète depuis une lisière aménagée. En partant plus près des étangs, la même promenade peut être raccourcie d’un à deux kilomètres.',
+          'Pour raccourcir la sortie, choisissez un seul étang et préparez un aller-retour. Vérifiez le passage depuis la lisière.',
         ],
       },
       {
@@ -244,7 +244,7 @@ export const frTopics: Record<string, TopicContent> = {
           'Oiseaux d’eau et canards sur les plans d’eau, selon la saison.',
           'Amphibiens au printemps, dans les zones humides et les mares forestières.',
           'Libellules et demoiselles en été, au bord des berges.',
-          'Chênes, hêtres et pins sylvestres qui composent l’essentiel du couvert forestier.',
+          'Châtaigniers, hêtres et chênes caractérisent le couvert forestier.',
         ],
       },
       {
@@ -272,7 +272,7 @@ export const frTopics: Record<string, TopicContent> = {
       {
         question: 'Quelle est la distance de la balade des étangs ?',
         answer:
-          'La boucle de référence vers les étangs est d’environ 8 kilomètres, soit 2 h 30 à 3 h 30 de marche selon l’allure. Vous pouvez la raccourcir en partant d’une lisière plus proche des points d’eau.',
+          'La boucle départementale fait 13 km depuis Meudon Val-Fleury. Pour une sortie courte, visez un étang ou revenez par le chemin prévu.',
       },
       {
         question: 'La balade des étangs est-elle balisée ?',

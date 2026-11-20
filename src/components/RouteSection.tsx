@@ -1,5 +1,6 @@
 'use client';
 
+import { attraction } from '@/lib/site';
 import { useTranslations } from 'next-intl';
 
 export default function RouteSection() {
@@ -16,9 +17,13 @@ export default function RouteSection() {
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
-        <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>
+        <p className="text-lg leading-relaxed mb-3" style={{ color: 'var(--text-secondary)' }}>
           {t('overview')}
         </p>
+
+        <a href={attraction.threePondWalkUrl} className="inline-block mb-8 font-medium underline" style={{ color: 'var(--accent)' }}>
+          {t('publishedRoute')}
+        </a>
 
         <div className="relative">
           {/* Timeline line */}
